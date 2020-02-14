@@ -1,0 +1,36 @@
+.table_search {
+    margin: 20px 0;
+    position: relative;
+    /*width: 300px;*/
+
+}
+
+.table_search input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid crimson;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 0 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: crimson;
+    color: cornflowerblue;
+    font-weight: 700;
+    border: 1px solid crimson;
+    transition: .5s all;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button:hover {
+    background-color: cornflowerblue;
+    color: crimson;
+    border: 1px solid cornflowerblue;
+}
