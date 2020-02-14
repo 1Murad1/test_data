@@ -7,7 +7,6 @@ import _ from "lodash";
 import DetailRowView from "./components/Table/DetailRowView/DetailRowView";
 import ModeSelector from "./components/ModeSelector/ModeSelector";
 import TableSearch from "./components/TableSearch/TableSearch";
-import Button from "./components/Button/Button";
 
 class App extends React.Component {
 
